@@ -23,7 +23,7 @@ class ridge(object):
 
 
 def main():
-    data = scipy.io.loadmat('./data/boston.mat')
+    data = scipy.io.loadmat('./boston.mat')
     x, y = data['boston'][:,:13], data['boston'][:,13]
     rid_data = ridge(x, y)
 
