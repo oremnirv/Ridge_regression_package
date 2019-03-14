@@ -1,4 +1,4 @@
-# Ridge_regression_package
+# Ridge regression package
 My own implementation to ridge regression 
 
 ## Background 
